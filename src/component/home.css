@@ -1,0 +1,25 @@
+.home-page {
+  background-image: url("../assets/background.jpg");
+  height: 90vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.h1-text {
+  color: aliceblue;
+  text-shadow: 2px 0px 0px rgb(9, 27, 129), 3px 2px 0px rgba(30, 0, 77, 0.5),
+    3px 0px 3px rgb(38, 0, 255), 5px 0px 3px rgba(128, 0, 21, 1),
+    6px 2px 3px rgba(77, 0, 13, 0.5), 6px 0px 9px rgba(255, 85, 0, 1),
+    8px 0px 9px rgba(128, 42, 0, 1), 9px 2px 9px rgba(77, 25, 0, 0.5),
+    9px 0px 18px rgb(0, 102, 255), 11px 0px 18px rgb(92, 178, 228),
+    12px 2px 18px rgba(77, 66, 0, 0.5), 12px 0px 30px rgb(111, 138, 197),
+    14px 0px 30px rgb(0, 66, 128), 15px 2px 30px rgba(64, 77, 0, 0.5),
+    15px 0px 45px wheat, 17px 0px 45px rgba(64, 128, 0, 1),
+    17px 2px 45px rgba(38, 77, 0, 0.5);
+}
+/* whyus */
+.fa-money-bill-transfer {
+  font-size: 75px;
+}
