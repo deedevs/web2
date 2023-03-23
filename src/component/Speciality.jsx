@@ -1,53 +1,68 @@
 import React from "react";
-import secIcon from "../assets/trac.webp";
+import Logo from "../assets/react.svg";
 
 const Speciality = () => {
   return (
-    <div className="py-4 px-3 pb-6">
-      <div className="md:text-center">
-        <h3 className="font-bold text-2xl text-blue-900 md:py-2 md:pt-10">
+    <section className="py-5 bg-[#256be6] lg:w-full " id="speciality">
+      <div className="header px-4 lg:w-[60%] lg:mx-auto">
+        <h4 className="text-white text-2xl font-bold text-center md:py-4">
           Our Speciality
-        </h3>
-        <h1 className="text-4xl font-bold md:pb-2">
+          <hr className="w-[20%] ml-16 md:ml-[280px] lg:py=3 lg:w-32 lg:ml-[360px] py-2" />
+        </h4>
+        <h1 className="text-2xl text-center lg:text-3xl font-bold  py-2">
           We Bring Everything In One Place
         </h1>
-        <p className="md:w-[50%] md:text-center md:mx-0 md:ml-[400px] md:py-4 md:px-4">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, sint
-          optio officiis similique ex aspernatur odio, dolor cupiditate nesciunt
-          maiores assumenda repellendus aliquid hic aliquam ad alias placeat
-          facilis perspiciatis!
+        <p className="py-4 text-center">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum
+          suspendisse ultrices gravida.
         </p>
       </div>
-      <div className="md:flex md:justify-space md:w-[100%]  md:py-16 md:space-x-16 md:px-64 px-8 py-8">
-        <div className="bg-slate-50  md:w-[40%] md:py-6 md:px-6 py-3 drop-shadow-lg px-2">
-          <img src={secIcon} alt="icon" id="secure" srcSet="" />
-          <h4 className="text-2xl text-blue-900 text-center md:py-2 mt-4">
+      <div className="container flex flex-col justify-center md:space-x-4 items-center md:flex-row md:px-16 lg:w-[60%] lg:mx-auto space-y-4 lg:space-x-8">
+        <div className="card py-3 px-3 rounded-md shadow-lg  lg:mx-auto bg-slate-50 w-[90%] md:w-[50%] lg:w-[60%] flex flex-col justify-center">
+          <img
+            className="w-[33%] ml-[100px] lg:w-[30%] md:ml-[60px] lg:ml-[80px]"
+            src={Logo}
+            alt="pic"
+            srcSet=""
+          />
+          <h3 className="font-bold text-blue-900 text-lg px-3 w-full text-center">
             Fully Secure Payment
-          </h4>
-          <p className="md:text-center px-2 py-2">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat
+          </h3>
+          <p className="px-2 text-center">
+            Lorem ipsum dolor sitame coctetur adipiscing elised do eiusmte
           </p>
         </div>
-        <div className="bg-slate-50  md:w-[40%]  md:py-6 md:px-6 py-3 pt-2 pb-4 mt-4 drop-shadow-lg">
-          <img src={secIcon} alt="icon" id="secure" srcSet="" />
-          <h4 className="text-2xl text-blue-900 text-center md:py-2">
+        <div className="card py-3 px-3 rounded-md shadow-lg bg-slate-50 w-[90%] md:w-[50%] flex lg:w-[60%] flex-col justify-center">
+          <img
+            className="w-[33%] ml-[100px] md:ml-[60px] lg:ml-[80px] lg:w-[30%]"
+            src={Logo}
+            alt="pic"
+            srcSet=""
+          />
+          <h3 className="font-bold text-blue-900 text-lg px-3 w-full text-center capitalize">
+            Cashout in A Minute
+          </h3>
+          <p className="px-2 text-center">
+            Lorem ipsum dolor sitame coctetur adipiscing elised do eiusmte
+          </p>
+        </div>
+        <div className="card py-3 px-3 rounded-md shadow-lg bg-slate-50 w-[90%] md:w-[50%] flex lg:w-[60%] flex-col justify-center">
+          <img
+            className="w-[33%] ml-[100px] md:ml-[60px] lg:ml-[80px] lg:w-[30%]"
+            src={Logo}
+            alt="pic"
+            srcSet=""
+          />
+          <h3 className="font-bold text-blue-900 text-lg px-3 w-full text-center capitalize">
             No Transition Charge
-          </h4>
-          <p className="md:text-center px-2 py-2">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat
-          </p>
-        </div>
-        <div className="bg-slate-50  md:w-[40%]  md:py-6 md:px-6 mt-4 drop-shadow-lg">
-          <img src={secIcon} alt="icon" id="secure" srcSet="" />
-          <h4 className="text-2xl text-blue-900 text-center md:py-2">
-            Cashout In a Minute
-          </h4>
-          <p className="md:text-center px-2 py-2">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat
+          </h3>
+          <p className="px-2 text-center">
+            Lorem ipsum dolor sitame coctetur adipiscing elised do eiusmte
           </p>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

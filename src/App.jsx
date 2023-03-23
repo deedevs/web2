@@ -1,33 +1,36 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
+
 import "./App.css";
+import Charges from "./component/charges";
+import Contact from "./component/Contact";
+import Features from "./component/Features";
 import Footer from "./component/Footer";
-import Header from "./component/Header";
 import Home from "./component/Home";
-import WhyUs from "./component/WhyUs";
-import Specialiy from "./component/Specialiy";
-import Charge from "./component/Charge";
-import OnlinePayment from "./component/OnlinePayment";
+import Navbar from "./component/Navbar";
+import OverView from "./component/OverView";
+import Partner from "./component/Partner";
+import Payment from "./component/Payment";
 import Speciality from "./component/Speciality";
-import Testimony from "./component/Testimony";
+import Team from "./component/Team";
+import Testimonial from "./component/Testimonial";
+import Transfer from "./component/Transfer";
 
 function App() {
   return (
-    <div className="ml-2 w-[100%]">
-      <Header />
-
+    <div className="App">
+      <Navbar />
       <Home />
-      <Specialiy />
+      <OverView />
+      <Transfer />
+      <Charges />
+      <Payment />
+      {/* <Features /> */}
 
-      <WhyUs />
-      <Charge />
-      <OnlinePayment />
+      <Partner />
       <Speciality />
-
-      <div className="z-50">
-        <Testimony />
-      </div>
-
+      <Testimonial />
+      <Contact />
+      <Team />
       <Footer />
     </div>
   );
